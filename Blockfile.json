@@ -1,0 +1,10 @@
+{
+  "require": [
+    "wtf",
+    "app-nat",
+    "app-vpn",
+    "app-jump",
+    "app-consul",
+    "app-cache"
+  ]
+}
