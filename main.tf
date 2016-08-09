@@ -18,6 +18,7 @@ module "nat" {
   cidr_blocks = "${split(" ",null_resource.cidrs.triggers.nat)}"
 
   az_count = "${var.az_count}"
+  nat_count = "${var.az_count}"
 
   app_name = "nat"
 }
